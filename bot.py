@@ -11,8 +11,8 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Конфигурация
-BOT_TOKEN = os.getenv('8364318349:AAHh6UODoQHMKwgnUZha3ZVDsyiM5fZso-g')  # Токен вашего бота
-ADMIN_ID = int(os.getenv('1492658199'))  # Ваш Telegram ID
+BOT_TOKEN = os.getenv('BOT_TOKEN')  # Токен вашего бота
+ADMIN_ID = int(os.getenv('ADMIN_ID'))  # Ваш Telegram ID
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Обработчик команды /start"""
